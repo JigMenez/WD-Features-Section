@@ -61,7 +61,7 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project:
-  -The project is a web page designed to display Pokémon features in an interactive and engaging manner.
+  - The project is a web page designed to display Pokémon features in an interactive and engaging manner.
 - Whats the purpose:
   - The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience.
 - What are key components:
