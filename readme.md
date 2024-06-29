@@ -125,4 +125,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Features Section | The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience. | trykolang.com |
+| Features Section | The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience. | [trykolang.com]https://jigmenez.github.io/WD-Features-Section/ |
