@@ -67,7 +67,7 @@ Guiding Question:
 - What are key components:
   - The key components include the main HTML structure, CSS for styling and animations, and images representing different features.
 - What technology used and how it is used:
-  - The project uses HTML for the structure, CSS for styling and animations, and JavaScript (optional) for additional interactivity if needed.
+  - The project uses HTML for the structure, CSS for styling and animations, and JavaScript for additional interactivity if needed.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
