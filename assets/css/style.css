@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(190, 254, 234) , rgb(255, 169, 169) , rgb(174, 174, 254));}
+
+header {
+    margin: 0; /* Remove margin to ensure full-width background */
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(54, 204, 156) , rgb(201, 62, 62) , rgb(85, 85, 219));
+    color: #fff; /* Set text color to contrast the background */
+    width: 100%; /* Ensure the header covers the full width */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    width: 30%;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Animation CSS */
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Hover effect for pics */
+.pics {
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.pics img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Description styling */
+.pics .description {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show description on hover */
+.pics:hover .description {
+    display: block;
+    opacity: 1;
+}
+
+/* Hover effects */
+.pics:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pics:hover img {
+    transform: scale(1.1);
+}
+
+.pics:hover a {
+    color: #ffffff;
+}
+
+/* Ensuring image is centered within the list item */
+img {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.look1 {
+    background-color: #00bc9c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .look1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #00bc9c;
+  }
+
+  .look1:hover {
+    background-color: #00bc9c;
+    color: white;
+  }
+
+
+  .look2 {
+    background-color: #b23a3e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .look2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #b23a3e;
+  }
+
+  .look2:hover {
+    background-color: #b23a3e;
+    color: white;
+  }
+
+  .look3 {
+    background-color: #1600bc; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .look3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #1600bc;
+  }
+
+  .look3:hover {
+    background-color: #1600bc;
+    color: white;
+  }
