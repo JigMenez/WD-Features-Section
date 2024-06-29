@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/JigMenez/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Features Section: Pokemon</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Hello. My name is Justin Ivan Gabriel E. Menez. This here is a project for the features section.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=JigMenez/WD-Features-)
 
 ---
 
@@ -60,17 +60,25 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project:
+  -The project is a web page designed to display Pokémon features in an interactive and engaging manner.
+- Whats the purpose:
+  - The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience.
+- What are key components:
+  - The key components include the main HTML structure, CSS for styling and animations, and images representing different features.
+- What technology used and how it is used:
+  - The project uses HTML for the structure, CSS for styling and animations, and JavaScript (optional) for additional interactivity if needed.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Header Section: Includes the title, subtitle, and a welcome message for the Pokémon feature display.
+- Navigation Menu: Contains a list of features, each represented by an image and a link. The images and links are designed to show animations and additional information when hovered over.
+- Hover Animations: CSS animations that scale up images and display additional descriptions when the user hovers over a feature.
+- Responsive Design: The layout adjusts to different screen sizes to ensure a consistent user experience across devices.
+- Image Gallery: Displays images representing different features, which are styled and animated using CSS.
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +125,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Features Section | The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience. | trykolang.com |
