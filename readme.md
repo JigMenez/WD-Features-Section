@@ -9,7 +9,7 @@
     <img src="./assets/img/Phoenix Logo.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Features Section: Pokemon</h3>
+  <h3 align="center">Features Section</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -140,4 +140,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Features Section | The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience. | [trykolang.com](https://jigmenez.github.io/WD-Features-Section/) |
+| Features Section | The purpose is to provide a visually appealing and user-friendly way to explore different features, using animations and hover effects to enhance the user experience. | [jigmenez.com](https://jigmenez.github.io/WD-Features-Section/) |
