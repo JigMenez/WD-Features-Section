@@ -61,9 +61,9 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project:
-  - The project is a web page designed to display Pokémon features in an interactive and engaging manner.
+  - The project is a web page designed to display features in an interactive and engaging manner.
 - Whats the purpose:
-  - The purpose is to provide a visually appealing and user-friendly way to explore different Pokémon features, using animations and hover effects to enhance the user experience.
+  - The purpose is to provide a visually appealing and user-friendly way to explore different features, using animations and hover effects to enhance the user experience.
 - What are key components:
   - The key components include the main HTML structure, CSS for styling and animations, and images representing different features.
 - What technology used and how it is used:
@@ -72,11 +72,26 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Header Section: Includes the title, subtitle, and a welcome message for the Pokémon feature display.
-- Navigation Menu: Contains a list of features, each represented by an image and a link. The images and links are designed to show animations and additional information when hovered over.
-- Hover Animations: CSS animations that scale up images and display additional descriptions when the user hovers over a feature.
-- Responsive Design: The layout adjusts to different screen sizes to ensure a consistent user experience across devices.
-- Image Gallery: Displays images representing different features, which are styled and animated using CSS.
+- Header
+
+- Title: Displaying the game name or logo.
+- Navigation Links: Links to other feature pages and the home page.
+
+- Main Content:
+ - Introduction: Brief summary of the game.
+ - Story: Narrative or lore of the game.
+ - Features/Highlights: Detailed features or highlights of the game.
+ - Questions: Specific questions addressing various aspects of the game.
+ - Download: Download link for the game.
+ - Footer:
+
+- Copyright Information: Legal and ownership details.
+- Styling and Layout
+- CSS Styles:
+ - Consistent styling for headers, navigation links, content sections, and footers.
+ - Responsive design to ensure the layout adapts to different screen sizes.
+ - Use of background images and color schemes relevant to each game.
+ - Animation effects for enhanced visual appeal.
 
 
 
