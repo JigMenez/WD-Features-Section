@@ -1,91 +1,162 @@
-* {
-    box-sizing: border-box;
-  }
-
 body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-image: linear-gradient(rgb(192, 255, 228), rgb(126, 255, 201));
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('../img/HOK.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
 
-header {
-    margin: 20px;
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-img {
-    max-width: 200px;
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200%;
+.header .title {
+  display: flex;
+  align-items: center;
 }
 
-
-
-img {
-    padding: 40px 0;
+.header .title-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
 }
 
-.Header1 {
-    margin: 0; /* Remove margin to ensure full-width background */
-    padding: 20px;
-    background-image: linear-gradient(rgb(149, 253, 208), rgb(0, 106, 62)); /* Set your desired background color */
-    color: #fff; /* Set text color to contrast the background */
-    width: 100%; /* Ensure the header covers the full width */
-    border-radius: 50px;
-
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
 }
 
-.First_Evo {
-    border-style: solid;
-    border-radius: 50px;
-    border-width: 5px;
-    float: left;
-  width: 33.33%;
-  padding: 3px;
-
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
 
-.First::after {
-    content: "";
-    display: table;
-    clear: both;
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid gold;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-item {
+  flex: 1 1 calc(50% - 10px);
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-item h3 {
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  color: white;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.download-link {
+  color: white;
+  text-decoration: none;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+      flex-direction: column;
   }
 
-.align {
-    justify-content: space-between;
+  .feature-item {
+      flex: 1 1 100%;
+  }
+
+  .right-side {
+      margin-left: 0;
+  }
 }
 
-.intro {
-    background-color: #333;
-    color: aliceblue;
-
+.highlights ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.button1 {
-    background-color: #00bc9c; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
+.highlights li {
+  margin-bottom: 10px;
+}
 
-  .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #00bc9c;
-  }
-  
-  .button1:hover {
-    background-color: #00bc9c;
-    color: white;
-  }
+.highlights li strong {
+  color: #ffcc00;
+}
